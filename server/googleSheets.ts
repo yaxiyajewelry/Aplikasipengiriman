@@ -2,7 +2,7 @@ import { google, sheets_v4 } from 'googleapis';
 import dotenv from 'dotenv';
 dotenv.config();
 
-export const SPREADSHEET_ID = process.env.GOOGLE_SPREADSHEET_ID || '1pHGZXElS17YfNjUNiX-I70uGKZGQNq1Ry1ETPTeqHjo';
+export const SPREADSHEET_ID = process.env.GOOGLE_SPREADSHEET_ID || '1Q0xxgKTDv4AhSQKt2mJdqnuxm1U3AuWAHJ89ArlHx-Q';
 
 export interface SheetDefinition {
   title: string;
